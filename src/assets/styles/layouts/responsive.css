@@ -1,0 +1,267 @@
+/* Responsive */
+
+/* Definimos los cambios para responsive teléfonos en posición apaisada a tables en vertical */
+
+@media screen and (max-width: 767px) {
+
+  /* poner los div de la cabecera en modo vertical */
+
+  .header__menu-nav {
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .size_menu {
+    font-size: 1.5em;
+  }
+
+  .containerMenu__buttom--space {
+    margin: 2% 2%;
+  }
+
+  .containerMenu__navigate--link {
+    margin: 0 0;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+
+  /* Cambio de formato del title de la página */
+
+  .header_title {
+    order: 1;
+    position: relative;
+    font-size: 7vw;
+    width: 90%;
+    right: 0;
+    text-align: center;
+  }
+
+  /* ordenar los div según el orden especificado en los requisitos */
+
+  .header__logo {
+    order: 2;
+    width: 60%;
+    left: 10%;
+  }
+
+  .header__img1 {
+    width: 25%;
+    height: 6em;
+  }
+
+  .header__img2 {
+    width: 7%;
+  }
+
+  .header__img3 {
+    width: 10em;
+  }
+
+  @keyframes logoBook {
+    0% {
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 0.5;
+      left: 5%;
+    }
+  
+    50% {
+      opacity: 0.9;
+      left: 15%;
+    }
+
+    100% {
+      opacity: 1;
+      left: 20%;
+    }
+  }
+  
+  @keyframes logoGlasses {
+    0% {
+      opacity: 0;
+      left: 10%;
+    }
+
+    25% {
+      opacity: 0.5;
+      left: 15%;
+    }
+  
+    50% {
+      opacity: 9;
+      left: 19%;
+    }
+
+    100% {
+      left: 13%;
+      top: 15.5em;
+    }
+  }
+
+  @keyframes logoText {
+    0% {
+      opacity: 0;
+      left: 13%;
+      top: 21em;
+    }
+
+    25% {
+      opacity: 0.2;
+    }
+
+    50% {
+      opacity: 0.7;
+    }
+
+    100% {
+      opacity: 1;
+      left: 13%;
+      top: 21em;
+    }
+  }
+
+  .header__img {
+    position: relative;
+    margin: 0% 0% 0% -5%;
+    width: 20%;
+  }
+
+  .header__menu-nav {
+    position: relative;
+    order: 3;
+    width: 50%;
+    margin-top: 15em;
+    left: 40%;
+    bottom: 20em;
+    margin-bottom: -17em;
+  }
+
+  /* Estilo de footer */
+
+  .container_footer {
+    font-size: 2.5em;
+  }
+
+  .footer_title {
+    font-size: 1.5em;
+  }
+
+  /* estilo de párrafo de descripción de lo que es la narrativa */
+
+  .box {
+    text-align: center;
+  }
+
+  .box__title {
+    text-align: center;
+    margin: auto;
+    background-color: lightblue;
+    width: 90%;
+    font-size: 3.5em;
+  }
+
+  /* colocación de div en modo vertical contenido de index.html */
+
+  .box__container {
+    left: 0;
+    font-size: 2em;
+    width: 70%;
+    height: 37em;
+  }
+  
+  .box__container-1 {
+    left: 0;
+    font-size: 2em;
+    width: 70%;
+    height: 18em;
+  }
+
+  .box__container-description {
+    width: 80%;
+    left: 0;
+    font-size: 2em;
+    text-align: justify;
+  }
+
+  /* Estilo para categorías */
+
+  .box__text {
+    font-size: 2em;
+    width: 80%;
+  }
+
+  .box__name {
+    font-size: 1.5em;
+  }
+
+  .box__content-image-book {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 4%;
+  }
+
+  .box__content-imageLibro {
+    height: 25em;
+  }
+
+  .box__content-imageAutor {
+    width: 20%;
+  }
+
+  /* Estilo para details */
+
+  .box__details-respon {
+    flex-direction: column;
+  }
+
+  .box__container-book-respon {
+    display: flex;
+  }
+
+  .box__container-book {
+    position: relative;
+    left: 10%;
+    width: 100%;
+  }
+  
+  .box__image-details {
+    width: 45%;
+    height: 10%;
+  }
+  
+  .box__buy {
+    width: 30%;
+    font-size: 2.5em;
+    height: 4.5em;
+    margin-top: 10%;
+  }
+
+  .box__container-description-book {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .img_gif {
+    height: 100%;
+  }
+
+  .box__name-autor {
+    font-size: 1.5em;
+  }
+
+  .box__summary {
+    font-size: 1em;
+  }
+
+  .box__slide {
+    font-size: 5em;
+  }
+}

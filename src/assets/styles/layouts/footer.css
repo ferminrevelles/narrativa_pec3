@@ -1,0 +1,75 @@
+/* Estilo del pie de página */
+
+.container_footer {
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-size: 1.8vw;
+}
+
+.flex-footer {
+  margin: 1% auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.box_image_footer {
+  margin: 1% 2%;
+  animation: circle 3s infinite;
+  height: auto;
+  width: 20%;
+}
+
+@keyframes circle {
+  0% { clip-path: circle(75%); }
+  50% { clip-path: circle(5%); }
+  100% { clip-path: circle(75%); }
+}
+
+.footer_img {
+  width: 100%;
+}
+
+.footer_title {
+  color: white;
+  margin: 2% auto;
+  font-family: Piedra, sans-serif;
+  font-size: 2.5em;
+}
+
+.container_footer-net {
+  color: white;
+  margin: 1% auto 1% auto;
+  width: 100%;
+}
+
+.footer_link-net {
+  text-decoration: none;
+  border-bottom: 0.1em dotted;
+  margin: 0% 0% 0% 5%;
+}
+
+em {
+  padding-right: 1%;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+/* Clase para esconder un elemento que será visible únicamente a los lectores de pantalla (aplicado para mejorar la accesibilidad: enlace que permite ir directamente al contenido principal de la página y acceso a la visualización directa del video en Youtube */
+
+.sr {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}

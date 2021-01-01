@@ -1,0 +1,11 @@
+/* Importa capas de hojas de estilo. */
+@import "./layouts/rendimiento.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+@import "./layouts/main_html.css";
+@import "./layouts/responsive.css";
+
+/* Importa dependencias para usar iconos fontawesome */
+
+@import "@fortawesome/fontawesome-free/css/brands.css";
+/*@import "@fortawesome/fontawesome-free/css/solid.css"; */
